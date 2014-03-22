@@ -20,7 +20,7 @@ put third-party styles & scripts in `vendor` dir.
 
 
 ### Compile static files
-During development use this command to auto re-compile files on save. View app at http://localhost:3333
+During development use this command to auto re-compile files on save. View app at [http://localhost:3333](http://localhost:3333)
 ```shell
 $ brunch watch --server
 ```
