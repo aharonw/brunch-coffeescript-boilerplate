@@ -14,12 +14,21 @@ $ npm install -g brunch
 $ npm install
 ```
 
+### Writing Code
+Write your code in `app` dir,
+put third-party styles & scripts in `vendor` dir.
+
+
 ### Compile static files
+During development use this command to auto re-compile files on save.
 ```shell
 $ brunch watch --server
 ```
-* Or build the minified project with `brunch build --optimize`.
+To build the minified project for production use:
+```shell
+$ brunch build --optimize
+```
 
+### Host files
 Open the `public/` dir to see the result.
-Write your code in `app` dir,
-put third-party styles & scripts in `vendor` dir.
+`bin/deploy` to deploy files to your S3 bucket (requires installation of AWS CLI tools)
